@@ -36,7 +36,7 @@
       <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Nikshay1&theme=github_dark" alt="Most used language" width="100%" />
     </td>
     <td width="50%">
-      <img src="https://github-readme-activity-graph.vercel.app/graph?username=Nikshay1&bg_color=0d1117&color=E9C46A&line=2A9D8F&point=E76F51&area=true&hide_border=true" alt="Contribution activity graph" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Nikshay1&theme=github_dark&utcOffset=5.5" alt="Productive time" width="100%" />
     </td>
   </tr>
 </table>

@@ -15,9 +15,7 @@
 
 <p align="center">
   B.Tech Computer Science student at Delhi Technological University<br/>
-  Building AI/ML systems, LLM workflows, and research-driven Python projects
-</p>
-
+  Building AI/ML systems, LLM workflows, and research-driven Python projects.
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nikshay1&theme=github_dark" alt="Profile details" width="100%" />
 </p>

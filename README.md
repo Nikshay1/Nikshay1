@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  B.Tech Computer Science student at Delhi Technological University<br/>
+  B.Tech Computer Science student at Delhi Technological University.<br/>
   Building AI/ML systems, LLM workflows and research-driven Python projects.
 </p>
 <p align="center">

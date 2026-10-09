@@ -74,7 +74,7 @@
 
 <p align="center">
   Contributing to developer tooling and production codebases.<br/>
-  Recent work includes Grafana Pathfinder, Interactive Tutorials, OpenTelemetry, and Hive.
+  Recent work spans Grafana Pathfinder, Interactive Tutorials, OpenTelemetry, and Hive.
 </p>
 
 <p align="center">

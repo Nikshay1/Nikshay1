@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Waybar">
+  <rect width="128" height="128" rx="26" fill="#0B1320"/>
+  <rect x="16" y="50" width="96" height="28" rx="8" fill="#133B5C"/>
+  <rect x="24" y="58" width="12" height="12" rx="3" fill="#E9C46A"/>
+  <rect x="40" y="58" width="12" height="12" rx="3" fill="#2A9D8F"/>
+  <rect x="56" y="58" width="12" height="12" rx="3" fill="#1F6F8B"/>
+  <rect x="84" y="61" width="20" height="6" rx="3" fill="#F8FAFC"/>
+</svg>

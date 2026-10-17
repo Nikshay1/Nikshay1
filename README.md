@@ -42,11 +42,11 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/grafana/grafana-pathfinder-app"><img src="assets/logos/pathfinder.svg" width="44" alt="Grafana Pathfinder logo" /></a></td>
     <td><a href="https://github.com/grafana/grafana-pathfinder-app"><b>Grafana Pathfinder</b></a><br/><sub>grafana/grafana-pathfinder-app</sub></td>
-    <td>Snippet validation and caching against the catalog, guided-sequence progress and navigation fixes, clearer kiosk catalog errors, and faster e2e runs.</td>
+    <td>Snippet validation and caching against the catalog, guided-sequence progress and navigation fixes, cross-tab step waits tied to the live tab budget, clearer kiosk catalog errors, and faster e2e runs. In review: tighter tests for the docs panel and learning paths.</td>
     <td align="center">
       <a href="https://github.com/grafana/grafana-pathfinder-app/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/grafana/grafana-pathfinder-app?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in grafana/grafana-pathfinder-app" /></a><br/>
-      <a href="https://github.com/grafana/grafana-pathfinder-app/pull/2093"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana-pathfinder-app/2093?label=%232093&labelColor=0B1320&style=flat-square" alt="grafana/grafana-pathfinder-app pull request 2093" /></a><br/>
-      <a href="https://github.com/grafana/grafana-pathfinder-app/pull/2133"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana-pathfinder-app/2133?label=%232133&labelColor=0B1320&style=flat-square" alt="grafana/grafana-pathfinder-app pull request 2133" /></a>
+      <a href="https://github.com/grafana/grafana-pathfinder-app/pull/2185"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana-pathfinder-app/2185?label=%232185&labelColor=0B1320&style=flat-square" alt="grafana/grafana-pathfinder-app pull request 2185" /></a><br/>
+      <a href="https://github.com/grafana/grafana-pathfinder-app/pull/2186"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana-pathfinder-app/2186?label=%232186&labelColor=0B1320&style=flat-square" alt="grafana/grafana-pathfinder-app pull request 2186" /></a>
     </td>
   </tr>
   <tr>
@@ -60,10 +60,11 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/kptdev/porch"><img src="assets/logos/kpt.png" width="44" alt="Porch logo" /></a></td>
     <td><a href="https://github.com/kptdev/porch"><b>Porch</b></a><br/><sub>kptdev/porch</sub></td>
-    <td>Added a <code>datasize</code> package so size flags accept values such as <code>6MB</code>. In review: recording the creation task type in v1alpha2 commit annotations.</td>
+    <td>Added a <code>datasize</code> package so size flags accept values such as <code>6MB</code>, and recorded the creation task type in v1alpha2 commit annotations. In review: blocking lifecycle transitions after a failed render, and nil checks on task details.</td>
     <td align="center">
       <a href="https://github.com/kptdev/porch/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/kptdev/porch?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in kptdev/porch" /></a><br/>
-      <a href="https://github.com/kptdev/porch/pull/1265"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1265?label=%231265&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1265" /></a>
+      <a href="https://github.com/kptdev/porch/pull/1282"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1282?label=%231282&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1282" /></a><br/>
+      <a href="https://github.com/kptdev/porch/pull/1283"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1283?label=%231283&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1283" /></a>
     </td>
   </tr>
   <tr>
@@ -77,8 +78,9 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/kptdev/kpt"><img src="assets/logos/kpt.png" width="44" alt="kpt logo" /></a></td>
     <td><a href="https://github.com/kptdev/kpt"><b>kpt</b></a><br/><sub>kptdev/kpt</sub></td>
-    <td>A <code>--timeout</code> flag for <code>kpt fn render</code> and <code>kpt fn eval</code>, stopping an exec function's child processes on timeout, and two <code>kpt live init</code> fixes.</td>
+    <td>Moved the e2e test framework to <code>e2e/framework</code> as the first step of porting the <code>kpt live</code> e2e suite to Go. In review: a <code>--timeout</code> flag for <code>kpt fn render</code> and <code>kpt fn eval</code>, stopping an exec function's child processes on timeout, and two <code>kpt live init</code> fixes.</td>
     <td align="center">
+      <a href="https://github.com/kptdev/kpt/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/kptdev/kpt?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in kptdev/kpt" /></a><br/>
       <a href="https://github.com/kptdev/kpt/pull/4795"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4795?label=%234795&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4795" /></a><br/>
       <a href="https://github.com/kptdev/kpt/pull/4796"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4796?label=%234796&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4796" /></a><br/>
       <a href="https://github.com/kptdev/kpt/pull/4798"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4798?label=%234798&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4798" /></a><br/>
@@ -108,14 +110,6 @@
     <td>Warning about missing extension IDs when running Firefox.</td>
     <td align="center">
       <a href="https://github.com/mozilla/web-ext/pull/3879"><img src="https://img.shields.io/github/pulls/detail/state/mozilla/web-ext/3879?label=%233879&labelColor=0B1320&style=flat-square" alt="mozilla/web-ext pull request 3879" /></a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="68"><a href="https://github.com/aden-hive/hive"><img src="assets/logos/hive.png" width="44" alt="Hive logo" /></a></td>
-    <td><a href="https://github.com/aden-hive/hive"><b>Hive</b></a><br/><sub>aden-hive/hive</sub></td>
-    <td>Hardening <code>safe_eval</code> validation to match <code>safe_exec</code>.</td>
-    <td align="center">
-      <a href="https://github.com/aden-hive/hive/pull/5321"><img src="https://img.shields.io/github/pulls/detail/state/aden-hive/hive/5321?label=%235321&labelColor=0B1320&style=flat-square" alt="aden-hive/hive pull request 5321" /></a>
     </td>
   </tr>
 </table>

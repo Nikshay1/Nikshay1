@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=24&duration=2300&pause=700&color=E9C46A&center=true&vCenter=true&width=900&lines=CSE+%40+Delhi+Technological+University;Python+%7C+AI%2FML+%7C+LLMs+%7C+Open+Source;Contributing+to+Grafana+%7C+kpt+%7C+Porch+%7C+Waybar;Machine+Learning+%7C+Agentic+AI+%7C+Applied+Research;Building+systems+that+make+models+useful" alt="Typing intro" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Mono&weight=700&size=24&duration=2300&pause=700&color=E9C46A&center=true&vCenter=true&width=900&lines=CSE+%40+Delhi+Technological+University;Python+%7C+AI%2FML+%7C+LLMs+%7C+Open+Source;Contributing+to+Grafana+%7C+kpt+%7C+Porch+%7C+Kestra+%7C+Waybar;Machine+Learning+%7C+Agentic+AI+%7C+Applied+Research;Building+systems+that+make+models+useful" alt="Typing intro" />
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@
 <h2 align="center">Open Source</h2>
 
 <p align="center">
-  Pull requests to production codebases across observability, Kubernetes tooling and the Linux desktop.
+  Pull requests to production codebases across observability, Kubernetes tooling, workflow orchestration and the Linux desktop.
 </p>
 
 <p align="center">
@@ -42,11 +42,9 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/grafana/grafana-pathfinder-app"><img src="assets/logos/pathfinder.svg" width="44" alt="Grafana Pathfinder logo" /></a></td>
     <td><a href="https://github.com/grafana/grafana-pathfinder-app"><b>Grafana Pathfinder</b></a><br/><sub>grafana/grafana-pathfinder-app</sub></td>
-    <td>Snippet validation and caching against the catalog, guided-sequence progress and navigation fixes, cross-tab step waits tied to the live tab budget, clearer kiosk catalog errors, and faster e2e runs. In review: tighter tests for the docs panel and learning paths.</td>
+    <td>Snippet validation and caching against the catalog, guided-sequence progress and navigation fixes, cross-tab step waits tied to the live tab budget, clearer kiosk catalog errors with rejected rules counted and logged once per tier, faster e2e runs, and tighter tests for the docs panel and learning paths.</td>
     <td align="center">
-      <a href="https://github.com/grafana/grafana-pathfinder-app/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/grafana/grafana-pathfinder-app?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in grafana/grafana-pathfinder-app" /></a><br/>
-      <a href="https://github.com/grafana/grafana-pathfinder-app/pull/2185"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana-pathfinder-app/2185?label=%232185&labelColor=0B1320&style=flat-square" alt="grafana/grafana-pathfinder-app pull request 2185" /></a><br/>
-      <a href="https://github.com/grafana/grafana-pathfinder-app/pull/2186"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana-pathfinder-app/2186?label=%232186&labelColor=0B1320&style=flat-square" alt="grafana/grafana-pathfinder-app pull request 2186" /></a>
+      <a href="https://github.com/grafana/grafana-pathfinder-app/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/grafana/grafana-pathfinder-app?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in grafana/grafana-pathfinder-app" /></a>
     </td>
   </tr>
   <tr>
@@ -97,11 +95,12 @@
     </td>
   </tr>
   <tr>
-    <td align="center" width="68"><a href="https://github.com/zen-browser/desktop"><img src="assets/logos/zen.png" width="44" alt="Zen Browser logo" /></a></td>
-    <td><a href="https://github.com/zen-browser/desktop"><b>Zen Browser</b></a><br/><sub>zen-browser/desktop</sub></td>
-    <td>Workspace swipe boundaries and Essentials cleanup.</td>
+    <td align="center" width="68"><a href="https://github.com/kestra-io"><img src="assets/logos/kestra.png" width="44" alt="Kestra logo" /></a></td>
+    <td><a href="https://github.com/kestra-io"><b>Kestra plugins</b></a><br/><sub>kestra-io/plugin-transform<br/>kestra-io/plugin-crypto</sub></td>
+    <td>In review: comparing numbers by value in record filter expressions (<code>==</code>, <code>!=</code>, <code>in</code>), and encrypting OpenPGP messages to a usable encryption key in the key ring.</td>
     <td align="center">
-      <a href="https://github.com/zen-browser/desktop/pull/15667"><img src="https://img.shields.io/github/pulls/detail/state/zen-browser/desktop/15667?label=%2315667&labelColor=0B1320&style=flat-square" alt="zen-browser/desktop pull request 15667" /></a>
+      <a href="https://github.com/kestra-io/plugin-transform/pull/133"><img src="https://img.shields.io/github/pulls/detail/state/kestra-io/plugin-transform/133?label=transform%20%23133&labelColor=0B1320&style=flat-square" alt="kestra-io/plugin-transform pull request 133" /></a><br/>
+      <a href="https://github.com/kestra-io/plugin-crypto/pull/136"><img src="https://img.shields.io/github/pulls/detail/state/kestra-io/plugin-crypto/136?label=crypto%20%23136&labelColor=0B1320&style=flat-square" alt="kestra-io/plugin-crypto pull request 136" /></a>
     </td>
   </tr>
   <tr>

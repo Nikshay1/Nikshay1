@@ -58,11 +58,13 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/kptdev/porch"><img src="assets/logos/kpt.png" width="44" alt="Porch logo" /></a></td>
     <td><a href="https://github.com/kptdev/porch"><b>Porch</b></a><br/><sub>kptdev/porch</sub></td>
-    <td>Added a <code>datasize</code> package so size flags accept values such as <code>6MB</code>, and recorded the creation task type in v1alpha2 commit annotations. In review: blocking lifecycle transitions after a failed render, and nil checks on task details.</td>
+    <td>Added a <code>datasize</code> package so size flags accept values such as <code>6MB</code>, recorded the creation task type in v1alpha2 commit annotations, and added nil checks on task details. In review: blocking lifecycle transitions after a failed render, rendering drafts after a subpackage operation, matching upgrade fallback candidates on <code>selfLock</code>, and a data race fix in the push tests.</td>
     <td align="center">
       <a href="https://github.com/kptdev/porch/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/kptdev/porch?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in kptdev/porch" /></a><br/>
-      <a href="https://github.com/kptdev/porch/pull/1282"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1282?label=%231282&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1282" /></a><br/>
-      <a href="https://github.com/kptdev/porch/pull/1283"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1283?label=%231283&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1283" /></a>
+      <a href="https://github.com/kptdev/porch/pull/1283"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1283?label=%231283&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1283" /></a><br/>
+      <a href="https://github.com/kptdev/porch/pull/1304"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1304?label=%231304&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1304" /></a><br/>
+      <a href="https://github.com/kptdev/porch/pull/1305"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1305?label=%231305&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1305" /></a><br/>
+      <a href="https://github.com/kptdev/porch/pull/1313"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1313?label=%231313&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1313" /></a>
     </td>
   </tr>
   <tr>
@@ -76,11 +78,10 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/kptdev/kpt"><img src="assets/logos/kpt.png" width="44" alt="kpt logo" /></a></td>
     <td><a href="https://github.com/kptdev/kpt"><b>kpt</b></a><br/><sub>kptdev/kpt</sub></td>
-    <td>Moved the e2e test framework to <code>e2e/framework</code> as the first step of porting the <code>kpt live</code> e2e suite to Go. In review: a <code>--timeout</code> flag for <code>kpt fn render</code> and <code>kpt fn eval</code>, stopping an exec function's child processes on timeout, and two <code>kpt live init</code> fixes.</td>
+    <td>Moved the e2e test framework to <code>e2e/framework</code> as the first step of porting the <code>kpt live</code> e2e suite to Go, and stopped <code>kpt live init</code> from rewriting unchanged YAML files. In review: a <code>--timeout</code> flag for <code>kpt fn render</code> and <code>kpt fn eval</code>, stopping an exec function's child processes on timeout, and a <code>kpt live init</code> fix for bare sequence YAML files.</td>
     <td align="center">
       <a href="https://github.com/kptdev/kpt/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/kptdev/kpt?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in kptdev/kpt" /></a><br/>
       <a href="https://github.com/kptdev/kpt/pull/4795"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4795?label=%234795&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4795" /></a><br/>
-      <a href="https://github.com/kptdev/kpt/pull/4796"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4796?label=%234796&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4796" /></a><br/>
       <a href="https://github.com/kptdev/kpt/pull/4798"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4798?label=%234798&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4798" /></a><br/>
       <a href="https://github.com/kptdev/kpt/pull/4800"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4800?label=%234800&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4800" /></a>
     </td>
@@ -88,16 +89,17 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/grafana/grafana"><img src="assets/logos/grafana.svg" width="44" alt="Grafana logo" /></a></td>
     <td><a href="https://github.com/grafana/grafana"><b>Grafana</b></a><br/><sub>grafana/grafana</sub></td>
-    <td>Default for a missing repeat direction in the V1 to V2 dashboard conversion, and surfacing datasource change errors in PanelEditNext.</td>
+    <td>Surfaced datasource change errors in PanelEditNext. In review: translating those error messages, and a default for a missing repeat direction in the V1 to V2 dashboard conversion.</td>
     <td align="center">
+      <a href="https://github.com/grafana/grafana/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/grafana/grafana?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in grafana/grafana" /></a><br/>
       <a href="https://github.com/grafana/grafana/pull/131938"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana/131938?label=%23131938&labelColor=0B1320&style=flat-square" alt="grafana/grafana pull request 131938" /></a><br/>
-      <a href="https://github.com/grafana/grafana/pull/131967"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana/131967?label=%23131967&labelColor=0B1320&style=flat-square" alt="grafana/grafana pull request 131967" /></a>
+      <a href="https://github.com/grafana/grafana/pull/135659"><img src="https://img.shields.io/github/pulls/detail/state/grafana/grafana/135659?label=%23135659&labelColor=0B1320&style=flat-square" alt="grafana/grafana pull request 135659" /></a>
     </td>
   </tr>
   <tr>
     <td align="center" width="68"><a href="https://github.com/kestra-io"><img src="assets/logos/kestra.png" width="44" alt="Kestra logo" /></a></td>
     <td><a href="https://github.com/kestra-io"><b>Kestra plugins</b></a><br/><sub>kestra-io/plugin-transform<br/>kestra-io/plugin-crypto</sub></td>
-    <td>In review: comparing numbers by value in record filter expressions (<code>==</code>, <code>!=</code>, <code>in</code>), and encrypting OpenPGP messages to a usable encryption key in the key ring.</td>
+    <td>Record filter expressions now compare numbers by value (<code>==</code>, <code>!=</code>, <code>in</code>), and OpenPGP messages are encrypted to a usable encryption key in the key ring.</td>
     <td align="center">
       <a href="https://github.com/kestra-io/plugin-transform/pull/133"><img src="https://img.shields.io/github/pulls/detail/state/kestra-io/plugin-transform/133?label=transform%20%23133&labelColor=0B1320&style=flat-square" alt="kestra-io/plugin-transform pull request 133" /></a><br/>
       <a href="https://github.com/kestra-io/plugin-crypto/pull/136"><img src="https://img.shields.io/github/pulls/detail/state/kestra-io/plugin-crypto/136?label=crypto%20%23136&labelColor=0B1320&style=flat-square" alt="kestra-io/plugin-crypto pull request 136" /></a>

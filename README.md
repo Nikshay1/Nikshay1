@@ -42,7 +42,7 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/grafana/grafana-pathfinder-app"><img src="assets/logos/pathfinder.svg" width="44" alt="Grafana Pathfinder logo" /></a></td>
     <td><a href="https://github.com/grafana/grafana-pathfinder-app"><b>Grafana Pathfinder</b></a><br/><sub>grafana/grafana-pathfinder-app</sub></td>
-    <td>Snippet validation and caching against the catalog, guided-sequence progress and navigation fixes, cross-tab step waits tied to the live tab budget, clearer kiosk catalog errors with rejected rules counted and logged once per tier, faster e2e runs, and tighter tests for the docs panel and learning paths.</td>
+    <td>Snippet validation and caching against the catalog, guided-sequence progress and navigation fixes, cross-tab step waits tied to the live tab budget, clearer kiosk catalog errors with rejected rules counted and logged once per tier, page scrolling when a target sits below the fold, faster e2e runs, and tighter tests for the docs panel and learning paths.</td>
     <td align="center">
       <a href="https://github.com/grafana/grafana-pathfinder-app/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/grafana/grafana-pathfinder-app?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in grafana/grafana-pathfinder-app" /></a>
     </td>
@@ -58,12 +58,10 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/kptdev/porch"><img src="assets/logos/kpt.png" width="44" alt="Porch logo" /></a></td>
     <td><a href="https://github.com/kptdev/porch"><b>Porch</b></a><br/><sub>kptdev/porch</sub></td>
-    <td>Added a <code>datasize</code> package so size flags accept values such as <code>6MB</code>, recorded the creation task type in v1alpha2 commit annotations, and added nil checks on task details. In review: blocking lifecycle transitions after a failed render, rendering drafts after a subpackage operation, matching upgrade fallback candidates on <code>selfLock</code>, and a data race fix in the push tests.</td>
+    <td>Added a <code>datasize</code> package so size flags accept values such as <code>6MB</code>, recorded the creation task type in v1alpha2 commit annotations, added nil checks on task details, matched upgrade fallback candidates on <code>selfLock</code>, fixed a data race in the push tests, and corrected the <code>rpkg push</code> stdin warning. In review: blocking lifecycle transitions after a failed render, and rendering drafts after a subpackage operation.</td>
     <td align="center">
       <a href="https://github.com/kptdev/porch/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/kptdev/porch?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in kptdev/porch" /></a><br/>
       <a href="https://github.com/kptdev/porch/pull/1283"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1283?label=%231283&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1283" /></a><br/>
-      <a href="https://github.com/kptdev/porch/pull/1304"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1304?label=%231304&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1304" /></a><br/>
-      <a href="https://github.com/kptdev/porch/pull/1305"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1305?label=%231305&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1305" /></a><br/>
       <a href="https://github.com/kptdev/porch/pull/1313"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/porch/1313?label=%231313&labelColor=0B1320&style=flat-square" alt="kptdev/porch pull request 1313" /></a>
     </td>
   </tr>
@@ -78,12 +76,11 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/kptdev/kpt"><img src="assets/logos/kpt.png" width="44" alt="kpt logo" /></a></td>
     <td><a href="https://github.com/kptdev/kpt"><b>kpt</b></a><br/><sub>kptdev/kpt</sub></td>
-    <td>Moved the e2e test framework to <code>e2e/framework</code> as the first step of porting the <code>kpt live</code> e2e suite to Go, and stopped <code>kpt live init</code> from rewriting unchanged YAML files. In review: a <code>--timeout</code> flag for <code>kpt fn render</code> and <code>kpt fn eval</code>, stopping an exec function's child processes on timeout, and a <code>kpt live init</code> fix for bare sequence YAML files.</td>
+    <td>Moved the e2e test framework to <code>e2e/framework</code> as the first step of porting the <code>kpt live</code> e2e suite to Go, stopped <code>kpt live init</code> from rewriting unchanged YAML files, stopped an exec function's child processes on timeout, and fixed the exec function test build on Unix. In review: a <code>--timeout</code> flag for <code>kpt fn render</code> and <code>kpt fn eval</code>, and a <code>kpt live init</code> fix for bare sequence YAML files.</td>
     <td align="center">
       <a href="https://github.com/kptdev/kpt/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/kptdev/kpt?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in kptdev/kpt" /></a><br/>
       <a href="https://github.com/kptdev/kpt/pull/4795"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4795?label=%234795&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4795" /></a><br/>
-      <a href="https://github.com/kptdev/kpt/pull/4798"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4798?label=%234798&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4798" /></a><br/>
-      <a href="https://github.com/kptdev/kpt/pull/4800"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4800?label=%234800&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4800" /></a>
+      <a href="https://github.com/kptdev/kpt/pull/4798"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4798?label=%234798&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4798" /></a>
     </td>
   </tr>
   <tr>
@@ -98,11 +95,12 @@
   </tr>
   <tr>
     <td align="center" width="68"><a href="https://github.com/kestra-io"><img src="assets/logos/kestra.png" width="44" alt="Kestra logo" /></a></td>
-    <td><a href="https://github.com/kestra-io"><b>Kestra plugins</b></a><br/><sub>kestra-io/plugin-transform<br/>kestra-io/plugin-crypto</sub></td>
-    <td>Record filter expressions now compare numbers by value (<code>==</code>, <code>!=</code>, <code>in</code>), and OpenPGP messages are encrypted to a usable encryption key in the key ring.</td>
+    <td><a href="https://github.com/kestra-io"><b>Kestra plugins</b></a><br/><sub>kestra-io/plugin-transform<br/>kestra-io/plugin-crypto<br/>kestra-io/plugin-airtable<br/>kestra-io/plugin-serdes<br/>kestra-io/plugin-cassandra</sub></td>
+    <td>Record filter expressions now compare numbers by value (<code>==</code>, <code>!=</code>, <code>in</code>), OpenPGP messages are encrypted to a usable encryption key in the key ring, and Airtable table names with spaces are encoded correctly with Airtable's error shown on failure. In review: reading quoted keys in <code>ToonToJson</code>, and secure Cassandra connections without a client keystore.</td>
     <td align="center">
-      <a href="https://github.com/kestra-io/plugin-transform/pull/133"><img src="https://img.shields.io/github/pulls/detail/state/kestra-io/plugin-transform/133?label=transform%20%23133&labelColor=0B1320&style=flat-square" alt="kestra-io/plugin-transform pull request 133" /></a><br/>
-      <a href="https://github.com/kestra-io/plugin-crypto/pull/136"><img src="https://img.shields.io/github/pulls/detail/state/kestra-io/plugin-crypto/136?label=crypto%20%23136&labelColor=0B1320&style=flat-square" alt="kestra-io/plugin-crypto pull request 136" /></a>
+      <a href="https://github.com/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged+org%3Akestra-io"><img src="https://img.shields.io/github/issues-search?query=author%3ANikshay1%20is%3Apr%20is%3Amerged%20org%3Akestra-io&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in kestra-io" /></a><br/>
+      <a href="https://github.com/kestra-io/plugin-serdes/pull/454"><img src="https://img.shields.io/github/pulls/detail/state/kestra-io/plugin-serdes/454?label=serdes%20%23454&labelColor=0B1320&style=flat-square" alt="kestra-io/plugin-serdes pull request 454" /></a><br/>
+      <a href="https://github.com/kestra-io/plugin-cassandra/pull/144"><img src="https://img.shields.io/github/pulls/detail/state/kestra-io/plugin-cassandra/144?label=cassandra%20%23144&labelColor=0B1320&style=flat-square" alt="kestra-io/plugin-cassandra pull request 144" /></a>
     </td>
   </tr>
   <tr>

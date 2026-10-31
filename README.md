@@ -9,6 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/DTU-Computer%20Science-133B5C?style=for-the-badge&labelColor=0B1320" alt="DTU badge" />
   <img src="https://img.shields.io/badge/Class%20of-2027-E9C46A?style=for-the-badge&labelColor=B98A16" alt="Class of 2027 badge" />
+  <a href="https://github.com/kptdev"><img src="https://img.shields.io/badge/kptdev-Org%20Member-2A9D8F?style=for-the-badge&labelColor=0B1320" alt="kptdev organization member badge" /></a>
   <img src="https://img.shields.io/github/followers/Nikshay1?style=for-the-badge&logo=github&label=Followers&color=133B5C&labelColor=0B1320" alt="Followers badge" />
   <img src="https://img.shields.io/github/stars/Nikshay1?style=for-the-badge&logo=github&label=Stars&color=E9C46A&labelColor=B98A16" alt="Stars badge" />
 </p>
@@ -76,7 +77,7 @@
   <tr>
     <td align="center" width="68"><a href="https://github.com/kptdev/kpt"><img src="assets/logos/kpt.png" width="44" alt="kpt logo" /></a></td>
     <td><a href="https://github.com/kptdev/kpt"><b>kpt</b></a><br/><sub>kptdev/kpt</sub></td>
-    <td>Moved the e2e test framework to <code>e2e/framework</code> as the first step of porting the <code>kpt live</code> e2e suite to Go, stopped <code>kpt live init</code> from rewriting unchanged YAML files, stopped an exec function's child processes on timeout, and fixed the exec function test build on Unix. In review: a <code>--timeout</code> flag for <code>kpt fn render</code> and <code>kpt fn eval</code>, and a <code>kpt live init</code> fix for bare sequence YAML files.</td>
+    <td>Member of the <a href="https://github.com/kptdev">kptdev</a> GitHub organization since October 2026. Moved the e2e test framework to <code>e2e/framework</code> as the first step of porting the <code>kpt live</code> e2e suite to Go, stopped <code>kpt live init</code> from rewriting unchanged YAML files, stopped an exec function's child processes on timeout, and fixed the exec function test build on Unix. In review: a <code>--timeout</code> flag for <code>kpt fn render</code> and <code>kpt fn eval</code>, and a <code>kpt live init</code> fix for bare sequence YAML files.</td>
     <td align="center">
       <a href="https://github.com/kptdev/kpt/pulls?q=is%3Apr+author%3ANikshay1+is%3Amerged"><img src="https://img.shields.io/github/issues-search/kptdev/kpt?query=author%3ANikshay1%20is%3Apr%20is%3Amerged&label=merged&color=8957E5&labelColor=0B1320&style=flat-square" alt="Merged pull requests in kptdev/kpt" /></a><br/>
       <a href="https://github.com/kptdev/kpt/pull/4795"><img src="https://img.shields.io/github/pulls/detail/state/kptdev/kpt/4795?label=%234795&labelColor=0B1320&style=flat-square" alt="kptdev/kpt pull request 4795" /></a><br/>
